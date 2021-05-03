@@ -3,6 +3,10 @@
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="description" content="contacto pretty pets" />
+
+    <meta name="author" content="rogelio torres pasillas" />
+
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="recursos/css/styles.css">
     <title>Contactanos - Pretty Pets</title>
@@ -10,19 +14,100 @@
 <body>
     <header>
         <nav>
+            <div class="box-header"><h1 id="nombre-empresa"><a href="rogelio1502_index.html">Pretty Pets</a></h1></div>
+
             <ul id="menu">
                 <li><a href="rogelio1502_index.html">Inicio</a></li>
                 <li><a href="rogelio1502_servicios.html">Servicios</a></li>
-                <li><a href="rogelio1502_informacionOportuna.html">Información Oportuna</a></li>
+                <li><a href="rogelio1502_informacionOportuna.html">Información</a></li>
                 <li><a href="rogelio1502_sucursales.html">Sucursales</a></li>
                 <li><a href="rogelio1502_contacto.html">Contáctanos</a></li>
-                <li id="i-nombre-empresa"><h1 id="nombre-empresa"><a href="rogelio1502_index.html">Pretty Pets</a></h1></li>
             </ul>
         </nav>
     </header>
-    
-
-
+    <main>
+        <article>
+            <section class="box-main">
+                <form>
+                    <fieldset>
+                        <legend>
+                            Haz tu Cita
+                        </legend>
+                        <div class="div-form">
+                            <label for="nombre">
+                                Nombre Completo
+                            </label>
+                            <input type="text" name="nombre" id="nombre" size="80">
+                        </div>
+                        <div class="div-form">
+                            <label for="fecha">
+                                Fecha
+                            </label>
+                            <input type="date" name="fecha" id="fecha">
+                        </div>
+                        <div class="div-form">
+                            <label for="hora">
+                                Hora
+                            </label>
+                            <input type="time" name="hora" id="hora">
+                        </div>
+                        <div class="div-form">
+                            <label for="numero_mascotas">
+                                Número de mascotas
+                            </label>
+                            <input type="number" name="numero_mascotas" id="numero_mascotas">
+                        </div>
+                        <div class="div-form">
+                            <label for="servicio">
+                                Servicio
+                            </label>
+                            <select name="servicio" id="servicio">
+                                <option value="1">Consulta</option>
+                                <option value="2">Vacunación</option>
+                                <option value="3">Baño</option>
+                                <option value="4">Estética</option>
+                            </select>
+                        </div>
+                        <div class="div-form">
+                            <label for="tipo">
+                                Tipo de mascotas:
+                            </label>
+                            <label for="perro">Perro</label>
+                            <input type="checkbox" name="perro" id="perro">
+                            <label for="gato">Gato</label>
+                            <input type="checkbox" name="gato" id="gato">
+                            
+                        </div>
+                        <div class="div-form">
+                            <input  class="enviar" type="submit" value="Agendar">
+                        </div>
+                    </fieldset>
+                    
+                    
+                </form>
+            </section>
+        </article>
+        
+    </main>
+    <aside >
+        <section class="box-aside">
+            <p id="promocion">
+                ¡Todos los martes tenemos <em>2x1</em>!
+            </p>
+        </section>
+    </aside>
+    <footer>
+        <section class="box-footer">
+            <p>
+                &reg;Copyright 2021.
+            </p>
+            <address>
+                Contactar al desarrollador   
+                <a href="mailto:rogelio15021515@gmail.com">Email</a>
+        </address>
+        </section>
+        
+    </footer>
 
 </body>
 </html>
