@@ -129,6 +129,28 @@ article{
 
 
 }
+.box-main-table-precios{
+    background-color: var(--back-main);
+    display: flex;
+    flex-flow: column;
+    border-radius: 4px;
+    align-items: center;
+    margin: 5px;
+}
+.table{
+    width: 80%;
+
+    text-align: left;
+    
+
+}
+.table th{
+    background-color: #5C7EAE;
+    color: white;
+}
+.table td{
+    background-color: #cdd4dd;
+}
 .box-main-suc{
     background-color: var(--back-main);
     border-radius: 4px;
