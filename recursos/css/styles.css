@@ -9,10 +9,11 @@
     --back-menu: #5C7EAE;
     
     --font-main: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
-    --font-size-normal: 1.3em;
-    --font-size-encabezado: 1.7em;
-    --font-size-titulo:2em;
-    --font-size-importante:1.2em;
+    --font-size-normal: 25px;
+    --font-size-encabezado: 45px;
+    --font-size-titulo:50px;
+    --font-size-importante:28px;
+    --font-size-menu:30px;
 }
 body{
     background-color: var(--back-body);
@@ -26,6 +27,9 @@ body{
     font-family: var(--font-main);
     font-size: var(--font-size-normal);
     
+}
+p{
+    font-size: var(--font-size-normal);
 }
 
 header{
@@ -75,6 +79,7 @@ div h1 a {
     color: var(--color-font-menu-items);
     background-color: var(--back-menu);
     justify-content: space-evenly;
+    font-size: var(--font-size-menu);
     
 }
 #menu li a:hover{
@@ -108,6 +113,7 @@ article{
     padding: 10px;
     color: var(--back-main);
     text-decoration: none;
+    font-size: var(--font-size-normal);
     margin-bottom: 10px;
     
 }
@@ -126,8 +132,15 @@ article{
     justify-content: center;
     text-align: center;
     margin: 5px;
+    padding-bottom: 16px;
 
-
+}
+#infografias{
+    display: flex;
+}
+.img-info{
+    width: 100%;
+    
 }
 .box-main-table-precios{
     background-color: var(--back-main);
@@ -141,9 +154,10 @@ article{
     width: 80%;
 
     text-align: left;
-    
+    font-size: var(--font-size-normal);    
 
 }
+
 .table th{
     background-color: #5C7EAE;
     color: white;
@@ -180,6 +194,7 @@ article{
     margin-top: 5px;
     
 }
+
 .importante{
     font-size: 2em;
 }
