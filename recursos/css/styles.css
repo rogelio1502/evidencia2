@@ -3,6 +3,7 @@
     --back-main: #FBFCF7;
     --back-footer: #7f807a;
     --back-btn:#5C7EAE;
+    --back-aside:#FBFCF7;
     --color-font:white;
     --color-font-menu-items:white;
     --color-font-btns:white;
@@ -121,7 +122,7 @@ article{
     background-color: var(--color-font-btns);
     border: 1px solid var(--back-btn);
     color: var(--back-btn);
-
+    cursor: pointer;
 }
 
 
@@ -198,12 +199,28 @@ article{
 .importante{
     font-size: 2em;
 }
+.box-main-form{
+    background-color: var(--back-main);
+    border-radius: 4px;
+    
+    
+    padding: 10px;
+    margin-top: 5px;
+}
+.box-main-form table tr td{
+  
+    padding: 15px;
+}
+.box-main-form input{
+   
+    font-size: var(--font-size-normal);
+}
 aside{
     grid-area: aside;
 
 }
 .box-aside{
-    background-color: white;
+    background-color: var(--back-aside);
     border-radius: 4px;
     padding: 10px;
     justify-content: center;
@@ -214,6 +231,7 @@ aside{
 }
 .aside-content{
     font-size: var(--font-size-importante);
+    border: 2px solid #ddd;
 }
 #promocion-q{
     color: red;
